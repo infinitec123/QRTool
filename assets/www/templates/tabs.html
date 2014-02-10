@@ -1,0 +1,16 @@
+
+<!-- 
+  Create tabs with an icon and label, using the tabs-positive style. 
+  Each tab's child <nav-view> directive will have its own 
+  navigation history that also transitions its views in and out.
+-->
+<tabs tabs-style="tabs-icon-top" tabs-type="tabs-positive">
+  <tab title="Encode" icon="icon ion-ios7-compose" href="#/tab/encode">
+    <nav-view name="encode-tab"></nav-view>
+  </tab>
+
+  <!-- Scan Tab -->
+  <tab title="Scan" icon="icon ion-camera" href="#/tab/scan">
+    <nav-view name="scan-tab"></nav-view>
+  </tab>
+</tabs>
